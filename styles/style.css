@@ -1,0 +1,143 @@
+
+
+body {
+	background-color: white;
+}
+
+.startimage{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+    position: relative;
+}
+
+.intro{
+	font-family: 'Spectral', serif;
+	width: 900px;
+	height: 100px;
+	color: black;
+	position: absolute;
+	z-index: 2;
+	top: 150px;
+	left: 5%;
+	font-size: 50px;
+}
+
+#branding{
+	font-family: 'Spectral', serif;
+	width: 600px;
+	height: 200px;
+	color: black;
+	z-index: 2;
+	top: 400px;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    letter-spacing: .03em;
+    line-height: 21px;
+}
+
+#projects{
+	width: 100%;
+	height: 800px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+#project1{
+	width: 100%;
+	height: 250px;
+	/*margin: 0 100px 0 100px;*/
+	order: 2;
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 auto;
+	margin-left: 35%;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.project1-title{
+	width: 200px;
+	height: 50px;
+	font-family: 'Spectral', serif;
+	/*margin: 0 0 15px 100px;*/
+	font-size: 24px;
+	order: 1;
+	flex: 0 0 auto;
+}
+
+.HR-text{
+	font-family: 'Spectral', serif;
+	/*margin-left: 100px;*/
+    font-size: 16px;
+    width: 500px;
+    height: 200px;
+    letter-spacing: .03em;
+    line-height: 20px;
+    order: 2;
+    flex: 0 0 auto;
+   
+}
+
+p {
+	font-family: 'Spectral', serif;
+	color: black;
+}
+
+.projectsTitle{
+	height: 100px;
+	width: 100px;
+	font-size: 36px;
+	order: 1;
+
+}
+
+.HR-ss{
+	height: 100px;
+	width: 100px;
+	order: 3;
+	flex: 0 0 auto;
+	margin-left: 20%;
+	display: flex;
+	flex-direction: column;
+}
+.hrlogos{
+	height: 100px;
+	width: 100px;
+	display: flex;
+	order: 1;
+	flex-direction: row;
+}
+
+.hr-html5{
+	height: 50px;
+	width: 50px;
+	order: 1;
+
+}
+
+.hr-css3{
+	height: 50px;
+	width: 50px;
+	order: 2;
+}
+.hr-js{
+	height: 50px;
+	width: 50px;
+	order: 3;
+}
+
+.hr-jq{
+	height: 50px;
+	width: 50px;
+	order: 4;
+}
+
+
+
+
+
