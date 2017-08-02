@@ -47,6 +47,7 @@ body {
 	align-content: flex-start;
 }
 
+
 #project1{
 	width: 100%;
 	height: 250px;
@@ -54,7 +55,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex: 0 0 auto;
-	margin-left: 35%;
+	margin-left: 25%;
 	align-content: flex-start;
 	flex-wrap: wrap;
 }
@@ -93,91 +94,33 @@ p {
 
 }
 
-.HR-ss{
+.hr-images{
 	height: 100px;
 	width: 100px;
 	order: 3;
 	flex: 0 0 auto;
-	margin-left: 20%;
+	margin-left: 10%;
 	display: flex;
-	flex-direction: column;
-}
-.hrlogos{
-	height: 100px;
-	width: 20000px;
-	display: flex;
-	order: 1;
 	flex-direction: row;
-	margin-top: 5px;
-	margin-left: -40px;
 }
-
-.hr-html5{
-	height: 50px;
-	width: 50px;
-	order: 1;
-
+.HR-ss{
+	 height: 150px; 
+	 width: 200px;
+	 margin-left: -35px;
+	 order: 1;
 }
-
-.hr-css3{
-	height: 50px;
-	width: 50px;
+.tech_hr{
+	font-family: 'Spectral', serif;
+	width: 100px;
+	height: 100px;
+	display: inline;
+	padding-left: 9px;
+	margin-left: 99px;
+	text-align: left;
+	white-space: nowrap;
 	order: 2;
 }
-.hr-js{
-	height: 50px;
-	width: 50px;
-	order: 3;
-}
 
-.hr-jq{
-	height: 50px;
-	width: 50px;
-	order: 4;
-}
-
-.hashlogos1{
-	height: 100px;
-	width: 200px;
-	display: flex;
-	order: 1;
-	flex-direction: row;
-	flex-wrap: wrap;
-	
-	margin-left: -40px;
-	margin-top: 5px;
-}
-
-.hash-ex{
-	height: 50px;
-	width: 50px;
-	order: 6;
-}
-.hash-mongo{
-	height: 50px;
-	width: 50px;
-	order: 7;
-}
-.hash-less{
-	height: 50px;
-	width: 50px;
-	order: 8;
-}
-.hash-node{
-	height: 50px;
-	width: 50px;
-	order: 9;
-}
-.hash-gulp{
-	height: 50px;
-	width: 50px;
-	order: 10;
-}
-.hash-hb{
-	height: 50px;
-	width: 50px;
-	order: 11;
-}
 
 #project2{
 	width: 100%;
@@ -186,7 +129,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	flex: 0 0 auto;
-	margin-left: 35%;
+	margin-left: 25%;
 	align-content: flex-start;
 	flex-wrap: wrap;
 }
@@ -210,15 +153,33 @@ p {
     order: 2;
     flex: 0 0 auto;
 }
-
-.hash-ss{
+.hash-images{
 	height: 100px;
 	width: 100px;
 	order: 3;
 	flex: 0 0 auto;
-	margin-left: 20%;
+	margin-left: 10%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+}
+
+.hash-ss{
+	height: 150px; 
+	 width: 200px;
+	 margin-left: -35px;
+	 order: 1;
+}
+
+.tech_hash{
+	font-family: 'Spectral', serif;
+	width: 100px;
+	height: 100px;
+	display: inline;
+	padding-left: 9px;
+	margin-left: 99px;
+	text-align: left;
+	white-space: nowrap;
+	order: 2;
 }
 
 #project3{
@@ -228,7 +189,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	flex: 0 0 auto;
-	margin-left: 35%;
+	margin-left: 25%;
 	align-content: flex-start;
 	flex-wrap: wrap;
 }
@@ -241,17 +202,6 @@ p {
 	order: 1;
 	flex: 0 0 auto;
 }
-
-.crate-ss{
-	height: 100px;
-	width: 100px;
-	order: 3;
-	flex: 0 0 auto;
-	margin-left: 20%;
-	display: flex;
-	flex-direction: column;
-}
-
 .crate-text{
 
 	font-family: 'Spectral', serif;
@@ -262,6 +212,42 @@ p {
     line-height: 20px;
     order: 2;
     flex: 0 0 auto;
+}
+.crate-images{
+	height: 100px;
+	width: 100px;
+	order: 3;
+	flex: 0 0 auto;
+	margin-left: 10%;
+	display: flex;
+	flex-direction: row;
+}
+
+.crate-ss{
+	height: 150px; 
+	 width: 200px;
+	 margin-left: -35px;
+	 order: 1;
+}
+.tech_crate{
+	font-family: 'Spectral', serif;
+	width: 100px;
+	height: 100px;
+	display: inline;
+	padding-left: 9px;
+	margin-left: 99px;
+	text-align: left;
+	white-space: nowrap;
+	order: 2;
+}
+
+#phife{
+	font-family: 'Spectral', serif;
+	color: grey;
+    font-size: 15px;
+    letter-spacing: .03em;
+    line-height: 21px;
+    margin-bottom: 5px;
 }
 
 
