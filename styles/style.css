@@ -7,17 +7,24 @@ body {
 .startcontainer{
 	width: 100%;
 	height: 600px;
-	background-color: white;
-    // position: fixed;
+	background-color: #E9004C;
+	color: black;
 }
 
 #phife{
 	font-family: 'Spectral', serif;
-	color: grey;
+	color: white;
     font-size: 15px;
     letter-spacing: .03em;
     line-height: 21px;
     margin-bottom: 5px;
+}
+#phifediv{
+	-webkit-transform: rotate(-45deg);
+    width: 350px;
+    right: 429px;
+    position: absolute;
+    top: -45px;
 }
 
 .intro{
@@ -47,7 +54,7 @@ body {
 }
 
 #projects{
-	// width: 100%;
+	width: 100%;
 	height: 1000px;
 	display: inline-flex;
 	flex-direction: row;
@@ -55,7 +62,8 @@ body {
 	flex-wrap: wrap;
 	align-content: flex-start;
 	top: 600px;
-	background-color: white;
+	background-color: #10181F;
+	color: white;
 }
 
 
@@ -69,6 +77,7 @@ body {
 	margin-left: 25%;
 	align-content: flex-start;
 	flex-wrap: wrap;
+	color: white;
 }
 
 .project1-title{
@@ -89,12 +98,8 @@ body {
     line-height: 20px;
     order: 2;
     flex: 0 0 auto;
+    color: white;
    
-}
-
-p {
-	font-family: 'Spectral', serif;
-	color: black;
 }
 
 .projectsTitle{
@@ -164,6 +169,7 @@ p {
     line-height: 20px;
     order: 2;
     flex: 0 0 auto;
+    color: white;
 }
 .hash-images{
 	height: 100px;
@@ -204,6 +210,7 @@ p {
 	margin-left: 25%;
 	align-content: flex-start;
 	flex-wrap: wrap;
+	color: white;
 }
 
 #project3-title{
@@ -213,9 +220,9 @@ p {
 	font-size: 24px;
 	order: 1;
 	flex: 0 0 auto;
+	color: white;
 }
 .crate-text{
-
 	font-family: 'Spectral', serif;
     font-size: 16px;
     width: 500px;
@@ -224,6 +231,10 @@ p {
     line-height: 20px;
     order: 2;
     flex: 0 0 auto;
+    color: white;
+}
+.crate-text p{
+	color: white;
 }
 .crate-images{
 	height: 100px;
@@ -233,6 +244,7 @@ p {
 	margin-left: 10%;
 	display: flex;
 	flex-direction: row;
+	color: white;
 }
 
 .crate-ss{
@@ -240,6 +252,7 @@ p {
 	 width: 200px;
 	 margin-left: -35px;
 	 order: 1;
+	 color: white;
 }
 .tech_crate{
 	font-family: 'Spectral', serif;
@@ -251,6 +264,7 @@ p {
 	text-align: left;
 	white-space: nowrap;
 	order: 2;
+	color: white;
 }
 
 .footer{
@@ -260,6 +274,7 @@ p {
 	flex direction: column;
 	justify-content: center;
 	padding-top: 20px;
+	background-color: #70C1B3
 }
 
 .devicon-github-plain{
