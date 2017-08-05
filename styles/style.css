@@ -67,15 +67,7 @@ body {
 	align-content: flex-start;
 	background-color: white;
 	color: black;
-	background-color: red;
-	transform: translateY(50px);
-	transition: all 1s ease-out;
 }
-.projects.fade-in{
-	opacity: 1;
-	transform: translateY(0);
-}
-
 
 #project1{
 	width: 100%;
@@ -89,14 +81,8 @@ body {
 	flex-wrap: wrap;
 	color: black;
 	postion: absolute;
-	background-color: blue;
-	// transform: translateY(90%);
-	// transition: all 1s ease-out;
 }
-// #project1.fade-in{
-// 	opacity: 1;
-// 	transform: translateY(0);
-// }
+
 
 .project1-title{
 	width: 200px;

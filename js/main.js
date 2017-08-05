@@ -3,9 +3,9 @@ $(document).ready(function(){
 	var controller = new ScrollMagic.Controller();
 
 	var wipeAnimation = new TimelineMax()
-		.fromTo('#project1', 1, {x: '-100%'}, {x: "0%", ease: Linear.easeNone})
-		.fromTo('#project2', 1, {x: '-100%'}, {x: "0%", ease: Linear.easeNone})
-		.fromTo('#project3', 1, {x: '-100%'}, {x: "0%", ease: Linear.easeNone});
+		.fromTo('#project1', 10, {x: '-100%'}, {x: "0%", ease: Linear.easeNone})
+		.fromTo('#project2', 10, {x: '-100%'}, {x: "0%", ease: Linear.easeNone})
+		.fromTo('#project3', 10, {x: '-100%'}, {x: "0%", ease: Linear.easeNone});
 
 
 	// var firstScene = new ScrollMagic.Scene({
