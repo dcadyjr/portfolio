@@ -353,10 +353,16 @@ body {
 	background-color: black;
 	color: white;
 }
-
+.fa.fa-envelope{
+	font-size: 70px;
+	font-color: white;
+	padding: 5px;
+	color: white;
+}
 .devicon-github-plain{
 	font-size: 60px;
 	color: white;
+	padding: 5px;
 }
 #copyright{
 	margin: 0 auto;
@@ -368,10 +374,9 @@ body {
 #contact{
 	margin: 0 auto;
 	order: 2;
-	width: 200px;
+	width: 250px;
 	height: 75px;
 	color: white;
-	padding-left: 45px;
 }
 
 a{
