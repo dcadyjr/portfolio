@@ -5,7 +5,8 @@ $(document).ready(function(){
 	var wipeAnimation = new TimelineMax()
 		.fromTo('#project1', 100, {x: '-100%'}, {x: "100%", ease: Linear.easeNone})
 		.fromTo('#project2', 100, {x: '-100%'}, {x: "100%", ease: Linear.easeNone})
-		.fromTo('#project3', 100, {x: '-100%'}, {x: "100%", ease: Linear.easeNone});
+		.fromTo('#project3', 100, {x: '-100%'}, {x: "100%", ease: Linear.easeNone})
+		.fromTo('#project4', 100, {x: '-100%'}, {x: "100%", ease: Linear.easeNone});
 
 
 
